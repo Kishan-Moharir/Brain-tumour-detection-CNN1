@@ -120,7 +120,7 @@ if not os.path.exists(MODEL_PATH):
 # LOAD MODEL
 # =========================================================
 
-model = load_model(MODEL_PATH)
+model = load_model(MODEL_PATH, compile=False)
 
 class_names = [
     "glioma",
